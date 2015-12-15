@@ -1,9 +1,17 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from setuptools import setup
+from setuptools.command.test import test as TestCommand
+import re
+
+for line in open('sklearn_lifelines/__init__.py'):
+    match = re.match("__version__ *= *'(.*)'", line)
+    if match:
+        __version__, = match.groups()
 
 setup(name='sklearn-lifeline',
-      version='0.0.1',
+      version=__version__,
       description='sklearn estimator wrappers for lifeline survival analysis Cox proportional hazard and Aalen Additive models from CamDavidsonPilon/lifelines',
       maintainer='sashaostr (Alexander Ostrikov)',
       maintainer_email='alexander.ostrikov@gmail.com',
