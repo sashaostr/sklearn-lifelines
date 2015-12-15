@@ -33,14 +33,14 @@ coxmodel = coxph_surv_ppl.named_steps['coxphfittermodel'].estimator
 coxmodel.print_summary()
 ```
 
-"""
+***
 expected lifetime: 4.44003472211
 
 n=1356, number of events=1094
 
                                   coef  exp(coef)  se(coef)          z         p  lower 0.95  upper 0.95     
 un_continent_name[Africa]    6.664e+00  7.834e+02       nan        nan       nan         nan         nan     
->un_continent_name[Americas]  7.375e+00  1.596e+03       nan        nan       nan         nan         nan     
+un_continent_name[Americas]  7.375e+00  1.596e+03       nan        nan       nan         nan         nan     
 un_continent_name[Asia]      7.171e+00  1.301e+03       nan        nan       nan         nan         nan     
 un_continent_name[Europe]    8.190e+00  3.605e+03       nan        nan       nan         nan         nan     
 un_continent_name[Oceania]   4.183e+00  6.554e+01       nan        nan       nan         nan         nan     
