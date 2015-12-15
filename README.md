@@ -32,7 +32,7 @@ coxmodel = coxph_surv_ppl.named_steps['coxphfittermodel'].estimator
 coxmodel.print_summary()
 ```
 
-```
+
 > expected lifetime: 4.44003472211
 >
 > n=1356, number of events=1094
@@ -53,4 +53,4 @@ coxmodel.print_summary()
 >Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 >
 >Concordance = 0.654
-```
+
