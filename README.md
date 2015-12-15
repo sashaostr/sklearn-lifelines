@@ -4,8 +4,7 @@ sklearn estimator wrappers for lifeline survival analysis Cox proportional hazar
 # Example
 ```python
 import lifelines
-from lifelines import CoxPHFitter
-# from sklearn_lifelines import CoxPHFitterModel
+from sklearn_lifelines.estimators_wrappers import CoxPHFitterModel
 from sklearn.pipeline import make_pipeline
 from sklearn.cross_validation import train_test_split
 from patsylearn import PatsyTransformer
