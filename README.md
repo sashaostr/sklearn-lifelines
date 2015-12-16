@@ -1,7 +1,7 @@
 # sklearn-lifelines
 sklearn estimator wrappers for lifeline survival analysis Cox proportional hazard and Aalen Additive models from https://github.com/CamDavidsonPilon/lifelines 
 
-# Setup
+# Installation
 
 ```bash 
 pip install git+https://github.com/sashaostr/sklearn-lifelines.git
