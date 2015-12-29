@@ -22,7 +22,8 @@ setup(name='sklearn_lifelines',
       install_requires=[
           'lifelines >= 0.8.0.2',
           'scikit-learn>=0.13',
-          'pandas>=0.11.0'],
+          'pandas>=0.11.0',
+          'patsylearn'],
       # tests_require=['pytest', 'mock'],
       # cmdclass={'test': PyTest},
       )
